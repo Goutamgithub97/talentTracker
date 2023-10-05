@@ -1,0 +1,42 @@
+
+    .table-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-row {
+        width: calc(33.33% - 20px); 
+        margin: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .card-header {
+        background-color: #0070d2;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+
+    .button-column {
+        margin-top: 10px;
+    }
+
